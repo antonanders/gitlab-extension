@@ -4,7 +4,7 @@ const Me = ExtensionUtils.getCurrentExtension()
 const { fetch } = Me.imports.helpers.fetch
 const { Settings } = Me.imports.helpers.settings
 
-const API_ENDPOINT = 'https://gitlab.com/api/v4'
+const API_ENDPOINT = 'https://gitlab.droidnet.de/api/v4'
 
 const headers = () => ({
   'PRIVATE-TOKEN': Settings.gitlab_token
